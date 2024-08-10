@@ -10,7 +10,9 @@ draft = false
 **Nickname:** atopx
 
 **Email:** [3940422@qq.com](mailto:3940422@qq.com) 
+
 **GitHub:** [github.com/atopx](https://github.com/atopx)
+
 
 ## Profession
 
@@ -24,5 +26,4 @@ When I'm not immersed in code, I enjoy playing basketball. The balance between t
 
 I am often described as a focused and dedicated tech enthusiast. My relentless pursuit of excellence and perfection drives me to constantly improve my skills and the projects I work on. Whether it's diving deep into the latest programming languages or refining my current knowledge, I am always striving to reach the next level.
 
-Feel free to reach out to me through email or check out my projects on GitHub!
-
+Feel free to reach out to me through [Email](mailto:3940422@qq.com) or check out my projects on [GitHub](https://github.com/atopx)!
