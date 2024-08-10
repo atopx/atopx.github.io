@@ -242,9 +242,9 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   --bw: 0.0625rem; //border width
   --ow: 0.1875rem; //outline width
 
-  --fs: 1rem; //font-size
+  --fs: 0.8rem; //font-size
   --lh: 1.5; //line-height
-  --lhh: 1.2; //line-height headers
+  --lhh: 1; //line-height headers
   --fw: 400; //font-weight
   --fh: 700; //font-weight h1-h6
 
@@ -252,22 +252,22 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   @if $enable-responsive-typography {
     @if map-get($breakpoints, "sm") {
       @media (min-width: map-get($breakpoints, "sm")) {
-        --fs: 1rem;
+        --fs: 0.8rem;
       }
     }
     @if map-get($breakpoints, "md") {
       @media (min-width: map-get($breakpoints, "md")) {
-        --fs: 1.04rem;
+        --fs: 0.87rem;
       }
     }
     @if map-get($breakpoints, "lg") {
       @media (min-width: map-get($breakpoints, "lg")) {
-        --fs: 1.08rem;
+        --fs: 0.9rem;
       }
     }
     @if map-get($breakpoints, "xl") {
       @media (min-width: map-get($breakpoints, "xl")) {
-        --fs: 1.12rem;
+        --fs: 1.02rem;
       }
     }
   }
@@ -450,19 +450,19 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
     line-height: var(--lhh);
   }
   h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.75rem;
-  }
-  h3 {
     font-size: 1.5rem;
   }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
   h4 {
-    font-size: 1.25rem;
+    font-size: 1.0rem;
   }
   h5 {
-    font-size: 1.125rem;
+    font-size: 0.9rem;
   }
   header h1 {
     margin: 0;
@@ -517,9 +517,10 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   }
   blockquote > :last-child {
     margin-bottom: 0;
+    font-size: .85rem;
   }
   small {
-    font-size: .875rem;
+    font-size: .8rem;
   }
 
   .footnote-definition sup, .footnote-definition p {
@@ -909,7 +910,7 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
     background-color: var(--f2);
     color: var(--c1);
     vertical-align: baseline;
-    font-size: 1rem;
+    font-size: 0.5rem;
     padding: .2rem;
   }
 
@@ -930,7 +931,7 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   // Table Override, this is used for numbered code blocks linenos and hl_lines
   code {
     table {
-      font-size: .8rem;
+      font-size: .5rem;
       margin: 0;
       // Highlighted text
       color: var(--h1);
@@ -1204,6 +1205,7 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   .sticky {
     position: sticky;
     top: var(--s2);
+    font-size: 0.85rem;
   }
   .block {
     max-width: 30rem;
@@ -1247,7 +1249,7 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
 
   }
     ol,ul {
-      font-size: 1em;
+      font-size: 0.8em;
     }
     width: 15rem;
     max-width: 15rem;
@@ -1413,22 +1415,22 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   }
 }
 @if $modifiers {
-  .sum, .sum p {margin: .2rem 0}
-  .s150 {font-size: 1.5em}
-  .s140 {font-size: 1.4em}
-  .s130 {font-size: 1.3em}
-  .s120 {font-size: 1.2em}
-  .s110 {font-size: 1.1em}
-  .s95 {font-size: .95em}
-  .s90 {font-size: .90em}
-  .s85 {font-size: .85em}
-  .s80 {font-size: .80em}
-  .s75 {font-size: .75em}
-  .s70 {font-size: .70em}
+  .sum, .sum p {margin: .2rem 0;font-size: 0.85rem;}
+  .s150 {font-size: 1.3em}
+  .s140 {font-size: 1.2em}
+  .s130 {font-size: 1.1em}
+  .s120 {font-size: 1.0em}
+  .s110 {font-size: .9em}
+  .s95 {font-size: .85em}
+  .s90 {font-size: .80em}
+  .s85 {font-size: .75em}
+  .s80 {font-size: .70em}
+  .s75 {font-size: .65em}
+  .s70 {font-size: .60em}
   .hpad {padding: 0 var(--s1)}
   .rpad {padding-right: var(--s1)}
   .vpad {padding: var(--s1) 0}
-  .tpad {padding-top: var(--s1)}
+  .tpad {padding-top: var(--s1); font-size: 0.8em;}
   .b {font-weight: var(--fh)}
   .c {text-align: center}// <center> does not pass validation, use: <div class="c"></div>
   .fl {float: left}

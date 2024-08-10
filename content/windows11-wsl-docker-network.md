@@ -5,11 +5,11 @@ date = 2024-08-10
 draft = false
 
 [taxonomies]
-tags = ["Windows","WSL","Docker"]
+tags = ["Windows","WSL","Docker","Linux"]
 [extra]
 keywords = "Code, Code Blocks, Syntax, Syntax Highlighting, Theme"
 toc = true
-series = "Windows"
+series = "Linux"
 +++
 
 在 WSL 2 中运行 Docker 时，默认情况下，Docker 会使用 `docker0` 桥接网络来管理容器的网络连接。
