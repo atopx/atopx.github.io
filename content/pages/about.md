@@ -5,10 +5,24 @@ template = "pages.html"
 draft = false
 +++
 
-This site provides a demo for the [abridge theme](https://github.com/Jieiku/abridge) for [Zola](https://www.getzola.org/) the static site generator.
+# About Me
 
-Abridge was created by [Jake G (jieiku)](https://github.com/Jieiku) to be fast and lightweight, using semantic html, a class-light [abridge.css](https://github.com/Jieiku/abridge.css), and No Mandatory JS.
+**Nickname:** atopx
 
-Nearly half of the existing Zola MIT themes were inspiration for features and design of this theme.
+**Email:** [3940422@qq.com](mailto:3940422@qq.com) 
+**GitHub:** [github.com/atopx](https://github.com/atopx)
 
-Abridge is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Profession
+
+I am a backend development engineer with a deep passion for coding and software design. My primary programming languages are **Golang**, **Rust**, and **Python**. With a focus on building efficient, scalable, and reliable systems, I continuously push myself to deliver high-quality software solutions.
+
+## Hobbies
+
+When I'm not immersed in code, I enjoy playing basketball. The balance between the mental challenge of coding and the physical activity on the court helps me maintain a well-rounded life.
+
+## Personal Traits
+
+I am often described as a focused and dedicated tech enthusiast. My relentless pursuit of excellence and perfection drives me to constantly improve my skills and the projects I work on. Whether it's diving deep into the latest programming languages or refining my current knowledge, I am always striving to reach the next level.
+
+Feel free to reach out to me through email or check out my projects on GitHub!
+
