@@ -9,7 +9,7 @@ tags = ["windows","vcpkg", "openssl", "rust"]
 [extra]
 keywords = "Windows, vcpkg, Rust, Openssl"
 toc = true
-series = "Rust"
+series = "rust"
 +++
 
 windows rust build error: failed to run custom build command for `openssl-sys v0.9.104`\nwindows vcpkg install openssl
