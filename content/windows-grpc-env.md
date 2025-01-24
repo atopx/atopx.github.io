@@ -19,7 +19,7 @@ windows 配置go grpc环境
 
 1. 安装 libprotoc, 配置环境变量
 
-   1) 下载地址: [https://github.com/protocolbuffers/protobuf/releases/tag/v29.3](https://github.com/protocolbuffers/protobuf/releases/tag/v29.3)
+   1) 下载地址: [https://github.com/protocolbuffers/protobuf/releases/latest/](https://github.com/protocolbuffers/protobuf/releases/latest/)
 
    2. 把bin路径加入PATH环境变量
 
